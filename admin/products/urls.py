@@ -1,7 +1,6 @@
-from django.contrib import admin
 from django.urls import path
 
-from admin.products.views import ProductViewSet
+from .views import ProductViewSet
 
 
 urlpatterns = [
